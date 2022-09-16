@@ -3,11 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueButtonLib", "ValueButtonLib\ValueButtonLib.csproj", "{5CDEDF3A-0CAE-40D9-9FA2-6F5250317324}"
+EndProject
 Global
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+        Debug|Any CPU = Debug|Any CPU
+        Release|Any CPU = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+        {5CDEDF3A-0CAE-40D9-9FA2-6F5250317324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {5CDEDF3A-0CAE-40D9-9FA2-6F5250317324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {5CDEDF3A-0CAE-40D9-9FA2-6F5250317324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {5CDEDF3A-0CAE-40D9-9FA2-6F5250317324}.Release|Any CPU.Build.0 = Release|Any CPU
+    EndGlobalSection
     GlobalSection(SolutionProperties) = preSolution
         HideSolutionNode = FALSE
     EndGlobalSection
     GlobalSection(ExtensibilityGlobals) = postSolution
-        SolutionGuid = {4A076F9C-FB7D-436C-BDCD-AF3C16EA229D}
+        SolutionGuid = {7ECD33F8-E8DA-4D9D-9C53-67C33D6DC52F}
+        SolutionGuid = {7030C43E-3915-467F-B976-3FE3356929E4}
     EndGlobalSection
 EndGlobal
