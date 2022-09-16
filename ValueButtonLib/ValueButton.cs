@@ -1,6 +1,6 @@
 ﻿namespace ValueButtonLib
 {
-    public partial class ValueButton : UserControl
+    public partial class ValueButton : Button
     {
         public ValueButton()
         {
