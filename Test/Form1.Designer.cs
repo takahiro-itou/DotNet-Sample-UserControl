@@ -41,6 +41,7 @@
             this.valueButton1.TabIndex = 0;
             this.valueButton1.Text = "valueButton1";
             this.valueButton1.UseVisualStyleBackColor = true;
+            this.valueButton1.Click += new System.EventHandler(this.valueButton1_Click);
             //
             // label1
             //

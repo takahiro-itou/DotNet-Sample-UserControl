@@ -6,5 +6,10 @@
         {
             InitializeComponent();
         }
+
+        private void valueButton1_Click(object sender, EventArgs e)
+        {
+            label1.Text = valueButton1.ButtonValue.ToString();
+        }
     }
 }
