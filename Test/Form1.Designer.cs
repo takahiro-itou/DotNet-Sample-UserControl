@@ -28,12 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.valueButton1 = new ValueButtonLib.ValueButton();
+            this.label1 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            //
+            // valueButton1
+            //
+            this.valueButton1.ButtonValue = 5;
+            this.valueButton1.Location = new System.Drawing.Point(12, 12);
+            this.valueButton1.Name = "valueButton1";
+            this.valueButton1.Size = new System.Drawing.Size(170, 47);
+            this.valueButton1.TabIndex = 0;
+            this.valueButton1.Text = "valueButton1";
+            this.valueButton1.UseVisualStyleBackColor = true;
+            //
+            // label1
+            //
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 78);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(38, 15);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "label1";
+            //
+            // Form1
+            //
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(222, 123);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.valueButton1);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private ValueButtonLib.ValueButton valueButton1;
+        private Label label1;
     }
 }
