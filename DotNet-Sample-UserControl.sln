@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueButtonLib", "ValueButtonLib\ValueButtonLib.csproj", "{5CDEDF3A-0CAE-40D9-9FA2-6F5250317324}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{74CCBA90-CB4E-45B3-9284-2BFEE5CDECB5}"
+EndProject
 Global
     GlobalSection(SolutionConfigurationPlatforms) = preSolution
         Debug|Any CPU = Debug|Any CPU
@@ -15,12 +17,16 @@ Global
         {5CDEDF3A-0CAE-40D9-9FA2-6F5250317324}.Debug|Any CPU.Build.0 = Debug|Any CPU
         {5CDEDF3A-0CAE-40D9-9FA2-6F5250317324}.Release|Any CPU.ActiveCfg = Release|Any CPU
         {5CDEDF3A-0CAE-40D9-9FA2-6F5250317324}.Release|Any CPU.Build.0 = Release|Any CPU
+        {74CCBA90-CB4E-45B3-9284-2BFEE5CDECB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {74CCBA90-CB4E-45B3-9284-2BFEE5CDECB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {74CCBA90-CB4E-45B3-9284-2BFEE5CDECB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {74CCBA90-CB4E-45B3-9284-2BFEE5CDECB5}.Release|Any CPU.Build.0 = Release|Any CPU
     EndGlobalSection
     GlobalSection(SolutionProperties) = preSolution
         HideSolutionNode = FALSE
     EndGlobalSection
     GlobalSection(ExtensibilityGlobals) = postSolution
-        SolutionGuid = {7ECD33F8-E8DA-4D9D-9C53-67C33D6DC52F}
-        SolutionGuid = {7030C43E-3915-467F-B976-3FE3356929E4}
+                SolutionGuid = {7030C43E-3915-467F-B976-3FE3356929E4}
+        SolutionGuid = {B62ED678-A4AC-4CFD-AA53-1D1D58B6AF20}
     EndGlobalSection
 EndGlobal
